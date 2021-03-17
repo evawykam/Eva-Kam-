@@ -1,0 +1,95 @@
+body{
+  font-family:'PT Serif', serif;
+  background-color: #eeebdd;
+  color: #b7657b;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: bolder;
+  color: #b7657b ;
+  font-size: 25px;
+  line-height: 20px
+}
+
+h2{
+  font-family: 'PT Serif', serif;
+  font-weight: bolder;
+  color: #f39189 ;
+  font-size: 20px;
+  line-height: 10px
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white{
+  background: white;
+  width: 700px;
+  margin: 16px auto;
+  padding: 16px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.btn-blue{
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #78c4d4;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: 0.5s;
+  display: inline-block;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: #025955;
+}
+
+.img-circle{
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.list-inline > li > a > i {
+  color: lightblue;
+}
+
+.list-inline > li > a > i:hover {
+  color: darkblue;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 200px;
+  }
+}
+
